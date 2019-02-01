@@ -13,14 +13,14 @@ public class POJ1753 {
 
 		// parse the std input
 		BufferedReader reader= new BufferedReader(new InputStreamReader(System.in));
-//		boolean[][] board= new boolean[4][4];
-//		for (int i= 0; i < 4; i++ ) {
-//			String s= reader.readLine();
-//			char[] arr= s.toCharArray();
-//			for (int j= 0; j < 4; j++ ) {
-//				board[i][j]= arr[j] == 'b';
-//			}
-//		}
+		boolean[][] board= new boolean[4][4];
+		for (int i= 0; i < 4; i++ ) {
+			String s= reader.readLine();
+			char[] arr= s.toCharArray();
+			for (int j= 0; j < 4; j++ ) {
+				board[i][j]= arr[j] == 'b';
+			}
+		}
 
 		System.out.println("h" == "h");
 		String s= "h";
